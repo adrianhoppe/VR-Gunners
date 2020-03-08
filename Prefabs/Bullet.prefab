@@ -46,8 +46,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Lifetime: 10
-  ExplosionForce: 10000
-  ExplosionRadius: 5
+  ExplosionForce: 1
+  ExplosionRadius: 8
+  RigidbodyExplosionForceScale: 15000
 --- !u!54 &7693919105926876382
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -9,6 +9,8 @@ namespace VRGunners.Terrain
     {
         public float TileSize = 1;
         public int Width = 100;
-        public int Height = 250;
+        public int Length = 250;
+        public float HeightScale = 1;
+        public float NoiseScale = 1;
     }
 }

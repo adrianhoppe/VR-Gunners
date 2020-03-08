@@ -20,6 +20,10 @@ namespace VRGunners.Terrain
         {
             base.OnInspectorGUI();
             DrawPropertiesEditor(Terrain.TerrainProperties, Terrain.OnTerrainPropertiesChanged, ref foldoutTerrainProperties);
+            if(GUILayout.Button("Update"))
+            {
+                Terrain.OnTerrainPropertiesChanged();
+            }
         }
 
         private void DrawPropertiesEditor(Object properties, System.Action OnChange, ref bool foldout)
