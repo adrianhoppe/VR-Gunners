@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d405caa41ef93814eb70ea8c8922d6de, type: 3}
   m_Name: TestTerrainProperties
   m_EditorClassIdentifier: 
-  TileSize: 1
-  Width: 20
-  Length: 20
-  HeightScale: 0
-  NoiseScale: 0.02
+  TileSize: 1.43
+  Width: 49
+  Length: 40
+  HeightScale: 17.21
+  NoiseScale: 0.035
